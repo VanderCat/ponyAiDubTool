@@ -1,7 +1,7 @@
 # Pony AI Dub Tool
 based and depends on so-vits-svc-fork
 
-made primarily to make an ai redubbing of russian MLP localization (make russian actors sound like original counterplates)
+made primarily to make an ai redubbing of russian MLP localization (make russian actors sound like original counterparts)
 
 ## installation
 ```
