@@ -1,0 +1,75 @@
+{
+    "inputAudio": ".\\data\\vocals.wav",
+    "characterMap": ".\\data\\lines.txt",
+    "defaultSettings": {
+        "modelDirLocation": ".\\models",
+        "autodetectModel": true,
+        "modelName": "Pony1",
+
+        "speaker": 0,
+
+        "transpose": 0,
+        "auto_predict_f0": false,
+        "f0_method": "dio",
+
+        "cluster_infer_ratio": 0,
+
+        "noise_scale": 0.4,
+        "db_thresh": -40,
+
+        "pad_seconds": 0.5,
+        "chunk_seconds": 0.5,
+        "absolute_thresh": false,
+        "max_chunk_seconds": 40,
+
+        "skip": false
+    },
+    "characterModels": {
+        "Twilight": {
+            "modelName": "Twilight (Speaking Mix)"
+        },
+        "Applejack": {
+            "modelName": "Applejack (speaking mix)"
+        },
+        "Applebloom": {
+            "modelName": "Applebloom (Speaking)"
+        },
+        "Rainbow": {
+            "modelName": "Rainbow Dash (Speaking)"
+        },
+        "Celestia": {
+            "modelName": "Celestia (Speaking)"
+        },
+        "Spike": {
+            "modelName": "Saul_Goodman_80000",
+            "transpose": -6
+        },
+        "Fluttershy": {
+            "modelName": "Fluttershy (Speaking Mix)"
+        },
+        "Rarity": {
+            "modelName": "Rarity (speaking mix)"
+        },
+        "Pinkie": {
+            "modelName": "Pinkie Pie (Speaking mix)"
+        },
+        "Discord": {
+            "modelName": "Discord"
+        },
+        "Nightmare": {
+            "modelName": "Luna (speaking)"
+        },
+        "Twinkleshine": {
+            "speaker": 2
+        },
+        "Minuette": {
+            "speaker": 0
+        },
+        "Granny": {
+            "speaker": 1
+        },
+        "Mayor": {
+            "speaker": 3
+        }
+    }
+}

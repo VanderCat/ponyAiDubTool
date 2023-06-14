@@ -1,0 +1,5 @@
+temp/*
+!temp/.gitinclude
+*-temp.wav
+result/*.wav
+pony.json
