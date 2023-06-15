@@ -1,6 +1,7 @@
 {
     "inputAudio": ".\\data\\vocals.wav",
     "characterMap": ".\\data\\lines.txt",
+    "outputFolder": ".\\result\\",
     "defaultSettings": {
         "modelDirLocation": ".\\models",
         "autodetectModel": true,

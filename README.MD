@@ -27,7 +27,7 @@ pip install pydub
 
    ![Audacity](https://files.catbox.moe/7cevcz.png)
 3. When you are done export labels as `Files` > `Export` > `Export Labels`
-4. make a copy of ponyExample.json as pony.json and start modifying to your needs
+4. make a copy of ponyExample.json and start modifying however you want
    
    `"settingsDefault"` - will be applied to each character model defenition in `"characterModels"` list
 
@@ -44,7 +44,7 @@ pip install pydub
     ```
 5. Activate the environment and run
    ```
-   python ponyairedb.py
+   python ponyairedb.py yourjsonfile.json
    ```
    wait for magic to happen
 6. you will get a separate syncronised voice tracks for each character that you will need to combine yourself. (if it is not obvious you can add effects like reverb and etc.)
